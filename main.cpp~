@@ -1,0 +1,12 @@
+#include <iostream>
+#include "queue.h"
+
+int main()
+{
+  Queue Kappa;
+  for(int i = 0; i < 10; i++)
+    {
+      Kappa.enqueue(i);
+    }
+  cout << Kappa;
+}
